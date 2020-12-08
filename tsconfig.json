@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es6",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "./src",
+    "pretty" :  true
+  },
+  "include": [
+    "src/**/*.ts",
+    "../../AppData/Roaming/JetBrains/IntelliJIdea2020.1/javascript/nodejs/12.16.2/node-typings/node_modules/@types/node/globals.d.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
